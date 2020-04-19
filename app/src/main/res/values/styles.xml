@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="CurrencyDialogTitleStyle" parent="CurrencyDialogStyle">
+        <item name="android:textSize">@dimen/size_16</item>
+    </style>
+
+    <style name="CurrencyDialogItemStyle" parent="CurrencyDialogStyle">
+        <item name="android:textSize">@dimen/size_14</item>
+    </style>
+
+
+    <style name="CurrencyDialogStyle">
+        <item name="android:fontFamily">"sans-serif-medium"</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

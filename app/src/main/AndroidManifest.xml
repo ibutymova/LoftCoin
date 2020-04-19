@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.butymovaloftcoin">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name="com.example.butymovaloftcoin.App"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:appComponentFactory">
+        <activity android:name="com.example.butymovaloftcoin.screens.main.MainActivity" android:launchMode="singleTask"/>
+
+        <activity android:name="com.example.butymovaloftcoin.screens.launch.LaunchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.butymovaloftcoin.screens.welcome.WelcomeActivity" />
+
+        <activity android:name="com.example.butymovaloftcoin.screens.start.StartActivity" />
+
+        <service android:name=".job.SyncRateJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+        <provider
+            android:authorities="com.example.butymovaloftcoin"
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths">
+            </meta-data>
+        </provider>
+    </application>
+</manifest>

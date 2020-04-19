@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoftCoin</string>
+    <string name="start_title">Start</string>
+    <string name="menu_converter">Converter</string>
+    <string name="menu_wallets">Wallets</string>
+    <string name="menu_rate">Rate</string>
+
+    <string name="welcome_page1_title">Buying and selling</string>
+    <string name="welcome_page2_title">Cryptocurrency rate</string>
+    <string name="welcome_page3_title">Currency Converter</string>
+
+    <string name="welcome_page1_content">Buy, low , sell when high</string>
+    <string name="welcome_page2_content">Follow the course of cryptocurrency and react to changes in price dynamics in time</string>
+    <string name="welcome_page3_content">Find out how much air in one bitcoin</string>
+
+    <string name="rate_menu_item_currency">Currency</string>
+    <string name="rate_menu_item_notify">Notify</string>
+    <string name="rate_menu_item_share">Share</string>
+
+    <string name="rate_screen_title">Cryptocurrency rate</string>
+    <string name="wallets_screen_title">Wallets</string>
+    <string name="converter_screen_title">Converter</string>
+
+    <string name="dialog_currency_title">Select currency</string>
+    <string name="menu_add_wallet">New wallet</string>
+    <string name="menu_remove_wallet">Remove wallet</string>
+
+    <string name="bottom_sheet_title">Select currency</string>
+    <string name="notification_rate_changed_body">Rate changed %s</string>
+    <string name="notification_channel_rate_changed">Change of rate</string>
+    <string name="notification_channel_rate_changed_description">Notify about change of selected rate</string>
+
+    <string name="result_remove_wallet">Wallet is removed</string>
+    <string name="remove_wallet_message">Is wallet remove?</string>
+
+    <string name="dialog_positive_button">Yes</string>
+    <string name="dialog_negative_button">No</string>
+
+    <string name="rate_notify_on_message">Do you want to get notification about changing rate %s?</string>
+    <string name="rate_notify_off_message">Do you want to cancel notification about changing rate?</string>
+
+    <string name="rate_notify_on_result">Notification is registered for %s</string>
+    <string name="rate_notify_off_result">Notification is cancelled</string>
+    <string name="rate_share_title">Courses of currencies on %s</string>
+
+    <string name="rate_notify_toast">A long tap on the course will set the notification for this course!</string>
+
+    <string name="pdf_format_file_name">%s/Rate currencies.pdf </string>
+    <string name="pdf_title">Rate currencies on %s</string>
+    <string name="mail_subject">Rate currencies on %s</string>
+    <string name="pdf_column1_title">Currency</string>
+    <string name="pdf_column2_title">Cost,%s</string>
+    <string name="pdf_column3_title">Dynamics,%</string>
+
+    <string name="permission_dialog_title">Permissions</string>
+    <string name="permission_dialog_message">Storage permission is needed to share pdf file with rate currency!</string>
+    <string name="permission_dialog_positive_button">Grant</string>
+    <string name="permission_dialog_negative_button">No</string>
+
+    <string name="app_settings_title">Settings</string>
+    <string name="app_settings_permissions_message">Open permissions and grant the storage permission!</string>
+    <string name="app_settings_notifications_message">Open permissions and grant the notifications!</string>
+    <string name="app_settings_positive_button">Open</string>
+    <string name="app_settings_negative_button">No</string>
+
+    <string name="error_load_rate_api">Error loading data from server!</string>
+    <string name="error_load_rate_database">Error of updating of data!</string>
+    <string name="error_currency_selected">Error loading data! </string>
+    <string name="error_load_wallets">Error loading wallets! </string>
+    <string name="error_load_transactions">Error loading transactions!</string>
+    <string name="error_remove_wallet">Error removing wallet!</string>
+    <string name="error_save_wallet">Error saving wallet!</string>
+    <string name="error_get_rate_share_str">Error loading data for sharing!</string>
+    <string name="error_create_notification">Error creating notification!</string>
+    <string name="error_request_permission">Storage permissions denied! Rate currency document cannot be saved!</string>
+    <string name="error_request_notification">Notification is not granted!</string>
+    <string name="error_create_pdf">Error creating file!</string>
+ </resources>

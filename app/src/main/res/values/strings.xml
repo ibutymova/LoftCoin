@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoftCoin</string>
+    <string name="start_title">Начать работу</string>
+    <string name="menu_converter">Конвертер</string>
+    <string name="menu_wallets">Кошельки</string>
+    <string name="menu_rate">Курс</string>
+
+    <string name="welcome_page1_title">Покупка и продажа</string>
+    <string name="welcome_page2_title">Курс криптовалют</string>
+    <string name="welcome_page3_title">Конвертер валют</string>
+
+    <string name="welcome_page1_content">Покупай, когда дешево, продавай, когда дорого</string>
+    <string name="welcome_page2_content">Следи за курсом криптовалют и вовремя реагируй на изменения динамики цены</string>
+    <string name="welcome_page3_content">Узнай сколько эфира в одном биткоине</string>
+
+    <string name="rate_menu_item_currency">Валюта</string>
+    <string name="rate_menu_item_notify">Оповещение</string>
+    <string name="rate_menu_item_share">Поделиться</string>
+
+    <string name="currency_price" translatable="false">%s | %s</string>
+    <string name="rate_item_percent_change" translatable="false">%.2f%%</string>
+    <string name="currencies_bottom_sheet_currency_name" translatable="false">%s | %s</string>
+
+    <string name="rate_screen_title">Курс криптовалют</string>
+    <string name="wallets_screen_title">Кошельки</string>
+    <string name="converter_screen_title">Конвертер</string>
+
+    <string name="dialog_currency_title">Выбор валюты</string>
+    <string name="currency_amount" translatable="false">%s | %s</string>
+
+    <string name="menu_add_wallet">Новый кошелек</string>
+    <string name="menu_remove_wallet">Удалить кошелек</string>
+
+    <string name="bottom_sheet_title">Выбор валюты</string>
+    <string name="notification_rate_changed_body">Курс изменился %s</string>
+    <string name="notification_channel_rate_changed">Изменение курса</string>
+    <string name="notification_channel_rate_changed_description">Уведомлять об изменении выбранного курса валюты</string>
+
+    <string name="result_remove_wallet">Кошелек был удален</string>
+    <string name="remove_wallet_message">Удалить кошелек?</string>
+
+    <string name="dialog_positive_button">Да</string>
+    <string name="dialog_negative_button">Нет</string>
+
+    <string name="rate_notify_on_message">Уведомлять об изменении курса %s?</string>
+    <string name="rate_notify_off_message">Отменить уведомление об изменении курса?</string>
+
+    <string name="rate_notify_on_result">Уведомление включено для %s</string>
+    <string name="rate_notify_off_result">Уведомление выключено</string>
+
+    <string name="rate_notify_toast">Длинный тап на курсе установит уведомление для него!</string>
+
+    <string name="rate_share_title">Курсы валют на %s:</string>
+    <string name="rate_share_format_first_line" translatable="false">\n %-10s </string>
+    <string name="rate_share_format_second_line" translatable="false"> %10s%s </string>
+
+    <string name="pdf_format_file_dir" translatable="false">%s%s%s</string>
+    <string name="pdf_format_file_name">%s/Курсы валют.pdf </string>
+    <string name="pdf_title">Курсы валют на %s</string>
+    <string name="mail_subject">Курсы валют на %s</string>
+
+    <string name="pdf_column1_title">Валюта</string>
+    <string name="pdf_column2_title">Стоимость,%s</string>
+    <string name="pdf_column3_title">Динамика,%</string>
+    <string name="pdf_column3_format" translatable="false">%.2f</string>
+
+    <string name="permission_dialog_title">Разрешения</string>
+    <string name="permission_dialog_message"> Для формирования pdf файла с курсами валют необходим доступ к памяти устройства!</string>
+    <string name="permission_dialog_positive_button">Разрешить</string>
+    <string name="permission_dialog_negative_button">Нет</string>
+
+    <string name="app_settings_title">Настройки</string>
+    <string name="app_settings_permissions_message">Откройте "Настройки приложения" и разрешите доступ к памяти устройства!</string>
+    <string name="app_settings_notifications_message">Откройте "Настройки приложения" и разрешите уведомления!</string>
+    <string name="app_settings_positive_button">Открыть</string>
+    <string name="app_settings_negative_button">Нет</string>
+
+    <string name="currency_usd_symbol" translatable="false">$</string>
+    <string name="currency_usd" translatable="false">Dollar | USD</string>
+    <string name="currency_eur_symbol" translatable="false">€</string>
+    <string name="currency_eur" translatable="false">Euro | EUR</string>
+    <string name="currency_rub_symbol" translatable="false">₽</string>
+    <string name="currency_rub" translatable="false">Rouble | RUB</string>
+
+    <string name="error_load_rate_api">Ошибка загрузки данных с сервера!</string>
+    <string name="error_load_rate_database">Ошибка обновления данных!</string>
+    <string name="error_currency_selected">Ошибка загрузки данных! </string>
+    <string name="error_load_wallets">Ошибка загрузки списка кошельков! </string>
+    <string name="error_load_transactions">Ошибка загрузки списка транзакций!</string>
+    <string name="error_remove_wallet">Ошибка удаления кошелька!</string>
+    <string name="error_save_wallet">Ошибка сохранения кошелька!</string>
+    <string name="error_get_rate_share_str">Ошибка загрузки данных для обмена с другим приложением!</string>
+    <string name="error_create_notification">Ошибка создания уведомления!</string>
+    <string name="error_request_permission">Разрешения для доступа к памяти устройства не предоставлены! Документ с курсами валют не может быть сохранен!</string>
+    <string name="error_request_notification">Уведомления не разрешены!</string>
+    <string name="error_create_pdf">Ошибка создания файла!</string>
+</resources>

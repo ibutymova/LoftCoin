@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_48">48sp</dimen>
+    <dimen name="size_12">12sp</dimen>
+    <dimen name="size_24">24sp</dimen>
+    <dimen name="size_14">14sp</dimen>
+    <dimen name="size_16">16sp</dimen>
+    <dimen name="size_11">11sp</dimen>
+    <dimen name="item_wallet_width">240dp</dimen>
+    <dimen name="item_wallet_margin">20dp</dimen>
+</resources>

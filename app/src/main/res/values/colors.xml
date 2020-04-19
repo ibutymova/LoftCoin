@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#191a29</color>
+
+    <color name="colorPrimary">#191a29</color>
+    <color name="windowBackground">#191a2a</color>
+    <color name="navigationBarColor">#10101a</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="textColorPrimary">#ffffff</color>
+
+    <color name="gradient_start_color">#ff4465</color>
+    <color name="gradient_end_color">#f6ca1d</color>
+    
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="green">#3de77b</color>
+    <color name="red">#ff4464</color>
+    <color name="grey">#66688f</color>
+
+    <color name="blue_grey">#9c9eb9</color>
+    <color name="grey_card">#2e2f47</color>
+    <color name="grey_converter">@color/grey_card</color>
+    <color name="dark_four">#313249</color>
+
+    <color name="bottom_navigation_not_checked_color">#51526b</color>
+    <color name="percent_change_up">@color/green</color>
+    <color name="percent_change_down">@color/red</color>
+    <color name="rate_item_background_even">#19192a</color>
+    <color name="rate_item_background_odd">#212237</color>
+
+    <color name="transaction_expense">#ff4465</color>
+    <color name="transaction_income">#3fe77b</color>
+</resources>

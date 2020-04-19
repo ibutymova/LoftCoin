@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+    <FrameLayout
+        android:id="@+id/item_currency_symbol"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18dp">
+        <ImageView
+            android:id="@+id/item_currency_symbol_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tint="@color/white"/>
+        <TextView
+            android:id="@+id/item_currency_symbol_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_coin_symbol"
+            android:textColor="@color/grey"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:gravity="center"
+            tools:text="A" />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/item_currency_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_14"
+        android:fontFamily="sans-serif-medium"
+        tools:text="Bitcoin | BTC"/>
+</LinearLayout>

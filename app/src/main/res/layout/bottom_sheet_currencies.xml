@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/dark_four">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/bottom_sheet_title"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_16"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/currency_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/currency_item"/>
+</LinearLayout>
